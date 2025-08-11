@@ -49,6 +49,8 @@ stl_lead_plot
 
 #export scatterplot
 ggsave(here::here("figs", "stl_lead_plot.png"), height = 5, width = 6)
+
+#The graph demonstrates that there is a slight negative relationship between the proportion of the census tract that identifies as white and the percent of children in the census tract with elevated blood levels. That is, the lower the percentage of the census tract identifying as white, the higher the proportion of the children with elevated lead blood levels.
 ```
 
 ```{r}
